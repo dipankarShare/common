@@ -1,6 +1,7 @@
 # common
 <h1 align="center">Hi 👋, I'm Dipankar</h1>
-<h3 align="center">Backend & Data Engineer | Security Engineer Passionate about building robust, scalable systems and optimizing data pipelines while ensuring security best practices. Experienced in designing backend architectures, managing data workflows, and implementing security measures to protect sensitive information.</h3>
+<h3 align="center">Backend & Data Engineer | Security Engineer 
+<br>Passionate about building robust, scalable systems and optimizing data pipelines while ensuring security best practices. Experienced in designing backend architectures, managing data workflows, and implementing security measures to protect sensitive information.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dipankarshare&label=Profile%20views&color=0e75b6&style=flat" alt="dipankarshare" /> </p>
 
