@@ -34,3 +34,7 @@ Run the following command in your Terminal to install Homebrew:
   ```bash
   sudo chsh -s /bin/bash username
   ```
+- Change your default shell to the new Bash:
+  ```bash
+  chsh -s /opt/homebrew/bin/bash
+  ```
