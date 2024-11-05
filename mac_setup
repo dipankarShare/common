@@ -1,0 +1,5 @@
+## To install Homebrew (a package manager for macOS), follow these steps:
+- Open Terminal
+- Install Homebrew
+Run the following command in your Terminal to install Homebrew:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
