@@ -5,15 +5,14 @@ Run the following command in your Terminal to install Homebrew:
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-  - For Zsh (default shell in recent macOS versions):
+  - add this following line to ~/.zshrc  - For Zsh (default shell in recent macOS versions):
 ```sh
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$(whoami)/.zshrc
-  source /Users/$(whoami)/.zshrc
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
   - For Bash:
 ```sh
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
-  source ~/.bash_profile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
+    source ~/.bash_profile
 ```
 - Verify Homebrew Installation
   ```sh
@@ -23,4 +22,15 @@ Run the following command in your Terminal to install Homebrew:
   ```sh
     brew update
   ```
-- 
+- Install bash
+  ```sh
+    brew install bash
+  ```
+- check current shell
+  ```sh
+    echo $SHELL
+  ```
+- Optional: Change the Shell for a Specific User
+  ```bash
+  sudo chsh -s /bin/bash username
+  ```
