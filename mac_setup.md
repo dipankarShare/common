@@ -39,5 +39,7 @@ Run the following command in your Terminal to install Homebrew:
   chsh -s /opt/homebrew/bin/bash
   ```
 - Install Docker
+- ```bash
   brew install --cask docker
+  ```
 - 
