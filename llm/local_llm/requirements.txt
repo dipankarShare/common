@@ -1,0 +1,7 @@
+python-dotenv
+openai
+pandasai==1.4.10
+streamlit
+ollama
+langchain
+watchdog
