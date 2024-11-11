@@ -42,4 +42,13 @@ Run the following command in your Terminal to install Homebrew:
   ```bash
   brew install --cask docker
   ```
-  
+
+  ## Install Postgres Database
+  - Install DbVisualizer for MAC Apple
+    ### Install Docker local
+    - https://hub.docker.com/
+    - docker pull postgres
+    - Run the PostgreSQL Container
+    ```bash
+    docker run --name postgres-container -e POSTGRES_USER=<myuser> -e POSTGRES_PASSWORD=<mypassword> -d -p 5432:5432 postgres
+    ```
