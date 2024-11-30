@@ -135,4 +135,8 @@ Celery is great for tasks that are:
 - Time-consuming (e.g., sending emails, generating reports, etc.).
 - Need to run periodically (e.g., backups, data synchronization).
 - Need to scale across multiple machines (distributed systems).
+
+## Link
+- https://www.youtube.com/watch?v=THxCy-6EnQM&t=453s
+- https://medium.com/@mohammed.farmaan.k/setting-up-celery-with-rabbitmq-in-docker-a-step-by-step-guide-dfcdbcb4658e
   
