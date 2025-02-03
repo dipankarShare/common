@@ -54,6 +54,7 @@ ZADD highscores 550 Dave
 After executing the command, Redis reorders the sorted set based on the new score and member:
 
 highscores
+```bash
 +------------------+--------+
 | Member           | Score  |
 +------------------+--------+
@@ -62,6 +63,7 @@ highscores
 | Alice            | 500    |
 | Bob              | 400    |
 +------------------+--------+
+```
 
 Explanation of Sorting:
 
@@ -104,6 +106,7 @@ Example Usage:
 Consider a sorted set highscores:
 
 highscores
+```bash
 +------------------+--------+
 | Member           | Score  |
 +------------------+--------+
@@ -112,6 +115,7 @@ highscores
 | Alice            | 500    |
 | Bob              | 400    |
 +------------------+--------+
+```
 
 Command 1: ZREVRANGE highscores 0 2
 
