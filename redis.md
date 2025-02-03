@@ -33,6 +33,7 @@ Initial Sorted Set:
 We can visualize this as:
 
 highscores
+```bash
 +------------------+--------+
 | Member           | Score  |
 +------------------+--------+
@@ -40,6 +41,7 @@ highscores
 | Alice            | 500    |
 | Bob              | 400    |
 +------------------+--------+
+```
 
 Use of ZADD:
 
